@@ -266,8 +266,11 @@ body{
     .header__h1{
         font-size: 3rem;
     }
-    .main__about{
+    .about__wrapper{
         align-items: center;
+    }
+    .main__about{
+        justify-content: center;
     }
     .main__interests{
         justify-content: center;
@@ -277,6 +280,11 @@ body{
     }
     .interests__p{
         text-align: center;
+        font-size: 0.8rem;
+    }
+    .about__p{
+        text-align: center;
+        font-size: 0.8rem;
     }
     .footer__wrapper{
         padding: 3rem 0.5rem;

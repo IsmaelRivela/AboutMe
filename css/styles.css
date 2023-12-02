@@ -261,3 +261,30 @@ body{
 .isVisible{
     opacity: 1;
 }
+
+@media(max-width : 600px){
+    .header__h1{
+        font-size: 3rem;
+    }
+    .main__about{
+        align-items: center;
+    }
+    .main__interests{
+        justify-content: center;
+    }
+    .interests__wrapper{
+        align-items: center;
+    }
+    .interests__p{
+        text-align: center;
+    }
+    .footer__wrapper{
+        padding: 3rem 0.5rem;
+    }
+    .footer__buttons{
+        width: 100%;
+    }
+    .footer__button{
+        text-align: center;
+    }
+}

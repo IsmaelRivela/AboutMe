@@ -266,6 +266,9 @@ body{
     .header__h1{
         font-size: 3rem;
     }
+    .main__wrapper{
+        padding: 3rem 0;
+    }
     .about__wrapper{
         align-items: center;
     }
